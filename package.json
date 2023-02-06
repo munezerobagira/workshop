@@ -1,0 +1,24 @@
+{
+  "name": "workshop-2",
+  "version": "1.0.0",
+  "description": "getting started",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha test/**/*.test.js --exit",
+    "coverage": "nyc --reporter=html --reporter=text npm run test"
+  },
+  "author": "munezerobagira@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "nyc": "^15.1.0"
+  }
+}
